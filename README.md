@@ -1,3 +1,2 @@
 # restaurant1200
-
-#This is a test
+Our Favorite Pancake Restaurant
