@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        
         <style>
             input.send-message {
                 margin-top:1.5em;
@@ -18,7 +19,7 @@
                 text-align: center;
                 background-color: #f3f6fe;
                 font-size: 16px;
-                width:25%;
+                width:50%;
             }
             input.send-message:hover {
                 background-color: transparent;
@@ -31,7 +32,33 @@
                 width:calc(50% - 1.5em);
                 margin: 0 3em 0 0;
             }
-            @media screen and (max-width: 736px) {
+            .form-container {
+                display:flex;
+                flex-direction:row;
+                flex-wrap: nowrap;
+                padding:10px 0px 10px 0px;
+            }
+            .main-div {
+                display:flex;
+                width:85vw;
+                margin:auto;
+            }
+            .info-point {
+                padding:10px 0px 10px 0px;
+            }
+            .infos {
+                display:flex; 
+                flex-direction: column;
+            }
+            #content {
+                display:block;
+                padding: 10% 2em 3em 2em;
+                margin: 0 auto;
+                width:max-content;
+            }
+
+            /** Responsive css **/
+            @media screen and (max-width: 767px) {
                 input.send-message {
                     font-size: 15px;
                     width:85%;
@@ -43,11 +70,17 @@
                 form.myForm {
                     width:80%
                 }
+                .form-container {
+                    flex-wrap: wrap;
+                }
             }
-            @media screen and (min-width: 760px) and (max-width: 1024px) {
+            @media screen and (min-width: 767px) and (max-width: 1024px) {
                 input.send-message {
                     font-size: 15px;
-                    width:45%;
+                    width:65%;
+                }
+                .form-container {
+                    flex-wrap: nowrap;
                 }
             }
         </style>
@@ -58,59 +91,71 @@
         
         
         <main>
-            <div class="main-form" style="display:flex;">
-                <section id="contact-us" style="display:block; padding: 10% 2em 3em 2em;  margin: 0 auto;">
-                    <div class="logo">
-                        <img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-pancake-morning-routine-flatart-icons-lineal-color-flatarticons.png">
-                        <h2>Contact Us</h2>
-                    </div>
+            <div class="main-div">
+                <section id="content">
+                    
+                    <header>
+                        <div class="logo">
+                            <img src="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-pancake-morning-routine-flatart-icons-lineal-color-flatarticons.png">
+                            <h2>We'd love to hear from you.</h2>
+                        </div>
+                    
+                        <p>We encourage you to send us a message below if you have any questions or feedback.</p>
+                    </header>
+                    
 
-                    <p>Please write your name, email address and a message below if you have any questions.
-                    We will be happy to contact you directly and answer your questions as soon as possible.</p>
+                    <!-- Contact div -->
+                    <div class="form-container">
+                        <!--Contact form-->
+                        <section id="contact-form">
+                            <form method="POST" class="myForm" >
+                                <div class="fields">
+                                    <div class="form-group">
+                                        <label for="formGroupNameInput">Name</label>
+                                        <input type="text" class="form-control" id="formGroupNameInput" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group"></div>
+                                        <label for="exampleFormControlMessageArea">Message</label>
+                                        <textarea class="form-control" id="exampleFormControlMessageArea" rows="3"></textarea>
+                                </div>
+                                <input type="submit" class="send-message" value="Send Message">
+                            </form>
+                        </section>
+                        <!-- end contact form-->
 
-                    <!-- Contact form -->
-                    <div class="flex-container" style="display:flex; flex-direction:row; flex-wrap: wrap; padding:10px 0px 10px 0px;">
-                        <form method="POST" class="myForm" >
-                            <div class="fields">
-                                <div class="form-group">
-                                    <label for="formGroupNameInput">Name</label>
-                                    <input type="text" class="form-control" id="formGroupNameInput" placeholder="Enter Name">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                </div>
-                                <div class="form-group"></div>
-                                    <label for="exampleFormControlMessageArea">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlMessageArea" rows="3"></textarea>
-                            </div>
-                            <input type="submit" class="send-message" value="Send Message">
-                        </form>
                         <!-- info list -->
-                        <ul class="infos" style="display:flex; flex-direction: column;">
-                            <li class="home" style="padding:0px 0px 10px 0px">
-                                Restaurant Name
-                                <br>
-                                Restaurant Address 
-                                <br>
-                                Oslo, Norway
-                            </li>
-                            <li class="phone" style="padding:10px 0px 10px 0px">
-                                (+47) 000-00-000
-                            </li>
-                            <li class="email" style="padding:10px 0px 10px 0px">
-                                pancakerestaurant@gmail.com
-                            </li>
-                            <li class="facebook" style="padding:10px 0px 10px 0px">
-                                facebook.com/pancakerestaurant
-                            </li>
-                        </ul>
-                    </div>    
+                        <section id="contact-info">
+                            <ul class="infos">
+                                <li class="info-point">
+                                    Restaurant Name
+                                    <br>
+                                    Restaurant Address 
+                                    <br>
+                                    Oslo, Norway
+                                </li>
+                                <li class="info-point">
+                                    (+47) 000-00-000
+                                </li>
+                                <li class="info-point">
+                                    pancakerestaurant@gmail.com
+                                </li>
+                                <li class="info-point">
+                                    facebook.com/pancakerestaurant
+                                </li>
+                            </ul>
+                        </section>
+                        <!-- end info list-->
+                    </div>
+                    <!--End contact div-->    
+
                 </section>
             </div>
         </main>
-        
         
         
         <footer></footer>
