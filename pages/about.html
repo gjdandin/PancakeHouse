@@ -14,7 +14,6 @@
       .navbar {
       overflow: hidden;
       background-color: #333;
-      position: fixed;
       display: flex;
       margin-top: 0;
       width: 100%;
@@ -33,6 +32,23 @@
     .navbar a:hover {
       background: #fef;
       color: tomato;
+    }
+
+    /*Mobile responsive css*/
+    @media screen and (min-width: 320px) and (max-width: 1024px) {
+      .navbar {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          position:unset;
+          margin-bottom: 20px;
+      }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 375px) {
+      .navbar a {
+          font-size: 15px;
+      }
     }
     /*  NAVIGATION CSS END */
      
@@ -104,7 +120,7 @@
 
 
 <body>
-    <div class="navbar" style="margin: auto; align-items: center; margin-top: auto;">
+    <div class="navbar" style="align-items: center; margin-top: auto;">
         <nav>
           <a href="../pages/index.html">Home</a> 
           <a href="../pages/menu.html">Menu</a> 

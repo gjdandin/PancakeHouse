@@ -30,6 +30,7 @@
       background: #fef;
       color: tomato;
     }
+
     /*  NAVIGATION CSS END */ 
 
    body{
@@ -105,6 +106,30 @@ span{
     margin-bottom: 1rem;
     border: 1px solid black;
 }
+
+/* Mobile Responsive css */
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position:unset;
+    }
+
+    #allergens {
+        overflow: auto;
+    }
+}
+
+@media screen and (min-width: 318px) and (max-width: 374px) {
+    .navbar a {
+    font-size: 15px;
+    }
+}
+
+/* End Mobile Responsive css */
+
    </style>
 </head>
 
