@@ -2,8 +2,11 @@
 <html lang="en">
 
 <head>
-   <title>About us<html lang="en"></title>
+   <title>About us</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
    <style>
      body {
@@ -11,7 +14,9 @@
         background-repeat: no-repeat;
         background-attachment: fixed;  
         background-size: cover;
+        font-family: 'Playfair Display', serif;
          }
+     
      nav {
         display: block;
         font-family: Arial, Helvetica, sans-serif;
@@ -35,6 +40,71 @@
         a:hover {
    text-decoration: underline;
    }
+
+   /*Here CSS for only this page starts */
+   /* Set the type of box to border-box for both cards used for the about page*/
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+    
+   /* Scaling the images to look nicer */
+    .card > div.left > img,
+    .card > div.right > img{
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 2%;
+      padding-top:2%;
+      display: block;
+    }
+
+    /*Making the text-boxes look better */
+
+    .card > div.right {
+      text-align: left;
+      vertical-align: top;
+      padding-top:0.5%;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card > div.left > article > p {
+      text-align: left;
+      padding-top:0.5%;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      
+
+    }
+
+
+
+
+    /* Making the headings appear in the center */
+    .card > div.right > article > h1,
+    .card > div.left > article > h2 {
+      text-align: center;
+              font-family: 'Playfair Display', serif;
+    }
+
+    /* Setting the size of both boxes in the card */
+   .card > div.left,
+   .card > div.right {
+   height: 100%;
+   width: 45%;
+
+}
+   /*Setting the card to align elements in the middle*/
+   .card > div {
+   vertical-align: middle;
+   display: inline-block;
+   }
+ 
+
+  
    </style>
 </head>
 
@@ -47,25 +117,67 @@
   <a href="../pages/contact.html">Contact</a>
   </nav>
   
+
+
+
+<div class = "card">
+  <!-- creating a card to display the about us page, (just like we did in lab 4)-->
+  <div class = "left">
+    
+    <img src="../img/strawberry-desert-pancake.jpeg" alt="One of our desert pancakes, with a strawberry, bluieberries, cream and syrup">
+    
+
+<!-- Image from https://www.pexels.com/photo/cooked-food-on-white-plate-beside-stainless-steel-fork-and-knife-on-brown-wooden-table-3838632/ -->
+
+  </div>
+  <div class = "right">
+    <article>
+
+     <h1>Welcome to Pancake House, where we aim to bring pancakes to the next level</h1>
+
+     <p>Our restaurant was founded in 2012, with one core belief: the pancake is the ultimate dish. </p> 
+     <p>Of couse, we have a lot of condiments to showcase our pancakes. 100% Norwegian bacon, ice cream freshly made at our house, delishous syrup from Japan, Canada and Germany and juicy, sweet berries, to mention some. 
+      We work to create dishes with amazing taste, feel and presentation.   </p>
+     <p>The dream of creating a resturant dedicated to pancakes started in 2001, and by 2011 our plans were set in motion. United by our love for great food, good presentation, 
+      and most importantly pancakes, we created Pancake House. Come visit us to see what pancakes are truly capable of.</p>
+     <p>We hope to see you at Pilestredet 35.</p>
+     </article>
+    
+  </div>
+</div>
+<div class = "card">
+  <!-- creating a card to display the about us page, (just like we did in lab 4)-->
   
-<h1>Welcome to _INSERT NAME HERE_, where we aim to bring pancakes to the next level</h1>
+  <div class = "left">
+    <article>
 
-<p>Our restaurant was founded in 2012, with one core belief: the pancake is the ultimate dish. 
-  Since 2012, we have made a lot of progress in this regard, with customers daily being surprised by how perfect our pancakes can be for either lunch, dinner or desert. 
-  Want to see the true potential of the pancake yourself? Come find us at _INSERT ADRESS HERE_</p>
+     <h2>Meet the crew</h2>
 
-<p>Our mission started in 2011 as a group of chefs who wanted to create something truly unique. United by our love for great food, good presentation, and most importantly pancakes, we set out. After years of hard work, we have reached a point where we truly believed that we have shown what the pancake is capable of - but there is still more work to be done. </p>
+     <p>In 2001, Sirin (center of the picture) got second place in MasterChef australia with her 3 course pancake dish. She felt that she had failed the pancake, and wanted redemtion. 
+      After a plan 10 years in the making, she cofounded Pancake House together with the people shown in the picture. Left to right, the team consists of:
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deserunt totam eius corrupti repellendus, quis accusantium mollitia dignissimos modi possimus ipsa! Cupiditate doloribus veritatis cum officiis odio distinctio, voluptatem corrupti delectus magni nulla quis nihil dolor assumenda recusandae minus quidem. Dolorum odio modi, tenetur corrupti impedit doloremque maiores officiis tempora!</p>
+     <p> Ahmet (Kitchen manager). Ahmet recived his education at "Norsk Resturantskole" in 2011, and his passion lies in presentation of food. He claims presentation is half the experience of a good meal. </p>
+     <p> Gilhan (Executive Chef). When not uploading his coding projects to github, Gilhan can be found experimenting with new and creative ways to showcase the pancake. </p>
+     <p> Sirin (General Manager). Sirin is the manager at Pancake house, and makes the wheels go around. "Every kitchen needs a Sirin" - Bhiravina </p>
+     <p> Johan (Head of Dishwashing). "I've always hated dirty dishes, which is why this job is perfect for me!"</p>
+     <p> Bhiravina (Sous Chef). "The most important part of a successfull dish starts before any ingredients are mixed." </p>
+    </article>
+  
+  </div> 
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni veritatis quidem ipsum dolores, fugiat velit ab vel in voluptates rerum consectetur pariatur culpa laboriosam corrupti molestiae quo porro, quod fugit repudiandae nobis officiis eveniet. Sequi ipsum rem consequuntur veritatis illo eos cum aliquam repudiandae tempora similique, blanditiis quasi necessitatibus excepturi!</p>
+  <div class = "right">
+    
+    <img src="../img/crew-photo.jpeg" alt="A team meeting by the founders of Pancake House">
+    <!-- Image from https://www.pexels.com/photo/women-standing-beside-corkboard-3184296/-->
+
+
+  </div>
+</div>
+
 
 </body>
 
 </html>
-
-
-
 
 
 
