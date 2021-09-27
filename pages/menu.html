@@ -6,12 +6,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <style>
-     body {
+     /*body {
         background-image: url('../img/menu-sirin.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;  
         background-size: cover;
-         }
+         }*/
      nav {
         display: block;
         font-family: Arial, Helvetica, sans-serif;
@@ -35,16 +35,241 @@
         a:hover {
    text-decoration: underline;
    }
+
+   body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FEFBF3;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.wrapper{
+    display: grid;
+    gap: 6rem;
+    max-width: 90vw;
+    padding: 1rem 1rem;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+.menu-grid{
+    display: grid;
+    gap:4rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.dish-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+
+figure{
+    margin: auto;
+    text-align: center;
+    max-width: 150px;
+}
+
+span{
+    justify-self: flex-end;
+    
+}
+
+.description{
+    line-height: 1.5rem;
+    margin-top:0;
+    text-align: justify;
+}
+
+.course-heading{
+    margin-bottom: 3rem;
+}
+
+#allergens{
+    display: grid;
+    grid-auto-flow: column;
+    max-width: 900px;
+    background-color: #faf3e7;
+    margin: auto;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
    </style>
 </head>
 
 <body>
-  <nav>
-  <a href="../pages/index.html">Home</a> 
-  <a href="../pages/menu.html">Menu</a> 
-  <a href="../pages/about.html">About</a> 
-  <a href="../pages/contact.html">Contact</a>
-  </nav>
+   <header>
+      <nav>
+         <a href="../pages/index.html">Home</a> 
+         <a href="../pages/menu.html">Menu</a> 
+         <a href="../pages/about.html">About</a> 
+         <a href="../pages/contact.html">Contact</a>
+      </nav>
+   </header>
+
+   <main>
+      <h1 class="center">Our dishes</h1>
+      <div class="wrapper">
+          <section class="course-section lunch">
+              <h2 class="course-heading center">Lunch menu</h2>
+              <div class="menu-grid">
+                  <section>
+                      <figure>
+                          <img src="../img/lunch1.png" />
+                      </figure>
+                      
+                      <div class="dish-grid">
+                          <h3 class="uppercase">Dish 1</h3>
+                          <span>$14.99</span>
+                      </div>
+                      
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                          Aenean commodo ligula eget dolor. Aenean massa. 
+                          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                          Donec qu
+                          <strong>(M,E)</strong>
+                      </p>
+                  </section>
+                  
+                  <section>
+                      <figure>
+                          <img src="../img/lunch1.png" />
+                      </figure>
+
+                      <div class="dish-grid">
+                          <h3 class="uppercase">Dish 1</h3>
+                          <span>$14.99</span>
+                      </div>
+
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                          In sed quam eget nibh consectetur tincidunt. 
+                          Donec porta convallis luctus. 
+                          Etiam placerat leo in ipsum porta commodo. Sed ullamcorper at elit.
+                          <strong>(M,E)</strong>
+                      </p>
+                  </section>
+              </div>
+          </section>
+
+          <section class="course-section dinner">
+              <h2 class="course-heading center">Dinner menu</h2>
+              <div class="menu-grid">
+                  <section>
+                      <figure>
+                          <img src="../img/lunch1.png" />
+                      </figure>
+                      
+                      <div class="dish-grid">
+                          <h3 class="uppercase">Dish 1</h3>
+                          <span>$14.99</span>
+                      </div>
+                      
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                          Aenean commodo ligula eget dolor. Aenean massa. 
+                          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                          Donec qu
+                          <strong>(M,E)</strong>
+                      </p>
+                  </section>
+                  
+                  <section>
+                      <figure>
+                          <img src="../img/lunch1.png" />
+                      </figure>
+
+                      <div class="dish-grid">
+                          <h3 class="uppercase">Dish 1</h3>
+                          <span>$14.99</span>
+                      </div>
+                      
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                          In sed quam eget nibh consectetur tincidunt. 
+                          Donec porta convallis luctus. 
+                          Etiam placerat leo in ipsum porta commodo. Sed ullamcorper at elit.
+                          <strong>(M,E)</strong>
+                      </p>
+                  </section>
+              </div>
+          </section>
+
+          <section class="course-section snacks">
+              <h2 class="course-heading center">Snacks menu</h2>
+              <div class="menu-grid">
+                  <section>
+                      <figure>
+                          <img src="../img/lunch1.png" />
+                      </figure>
+                      
+                      <div class="dish-grid">
+                          <h3 class="uppercase">Dish 1</h3>
+                          <span>$14.99</span>
+                      </div>
+                      
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                          Aenean commodo ligula eget dolor. Aenean massa. 
+                          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                          Donec qu
+                          <strong>(M,E)</strong>
+                      </p>
+                  </section>
+                  
+                  <section>
+                      <figure>
+                          <img src="../img/lunch1.png" />
+                      </figure>
+
+                      <div class="dish-grid">
+                          <h3 class="uppercase">Dish 1</h3>
+                          <span>$14.99</span>
+                      </div>
+                      
+                      <p class="description">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                          In sed quam eget nibh consectetur tincidunt. 
+                          Donec porta convallis luctus. 
+                          Etiam placerat leo in ipsum porta commodo. Sed ullamcorper at elit.
+                          <strong>(M,E)</strong>
+                      </p>
+                  </section>
+              </div>
+          </section>
+      </div>
+      <div id="allergens">
+          <p>V - Vegetarian</p>
+          <p>W - Wheat</p>
+          <p>E - Egg</p>
+          <p>P - Peanuts</p>
+          <p>SO - Soya</p>
+          <p>M - Milk</p>
+          <p>N - Nuts (Almond, Pistachio, Cashew)</p>
+      </div>
+  </main>
+
+  <footer>
+
+  </footer>
 </body>
 
 </html>
