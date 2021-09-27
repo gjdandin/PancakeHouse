@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
    <title>Welcome to Pancake House!</title>
+
    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -110,11 +111,14 @@ footer {
   justify-content: center;
 }
       
-@media screen and (min-width: 350px) and (max-width: 1024px) {
+@media screen and (min-width: 400px) and (max-width: 1024px) {
   /* For mobile phones: */
   .navbar {
     font-size: 14px;
     width: 65%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
   }
   button {
   font-size: 14px;
@@ -126,13 +130,12 @@ footer {
   width:65%;
   }
 
-   </style>
-      
+   </style>      
 </head>
+
 <body>
   <main>
     <div class="main">
-        <section id="content">
             <div class="navbar" style="margin: auto; align-items: center; margin-top: auto;">
                   <nav>
                     <a href="../pages/index.html">HOME</a> 
@@ -152,9 +155,7 @@ footer {
                       </a>
                     </div>
                 </div>
-            </div>
-
-        </section>
+            </div>        
     </div>
 </main>
 
