@@ -353,6 +353,7 @@ article{
 
     .card > div.left > article > p {
       text-align: left;
+      vertical-align: top;
       padding: top 10%;
       width: 70%;
       margin-left: auto;
@@ -365,7 +366,7 @@ article{
     .card > div.right > article > h1,
     .card > div.left > article > h2 {
       text-align: center;
-              font-family: 'Playfair Display', serif;
+      font-family: 'Playfair Display', serif;
     }
 
     /* Setting the size of both boxes in the card */
