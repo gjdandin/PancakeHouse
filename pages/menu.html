@@ -4,109 +4,9 @@
 <head>
    <title>Pancakes for everyone!</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/styles.css">
 
    <style>
-    /*  NAVIGATION CSS START */ 
-    .navbar {
-      overflow: hidden;
-      background-color: #333;
-      position: fixed;
-      display: flex;
-      margin-top: 0;
-      width: 100%;
-      justify-content: center;
-    }
-
-    .navbar a {
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .navbar a:hover {
-      background: #fef;
-      color: tomato;
-    }
-
-    /*  NAVIGATION CSS END */ 
-
-   body{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #FEFBF3;
-    font-family: 'Playfair Display', serif;
-}
-
-.center{
-    text-align: center;
-}
-
-.uppercase{
-    text-transform: uppercase;
-}
-
-.wrapper{
-    display: grid;
-    gap: 6rem;
-    max-width: 90vw;
-    padding: 1rem 1rem;
-    margin: auto;
-    margin-bottom: 10rem;
-}
-
-.menu-grid{
-    display: grid;
-    gap:4rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-.dish-grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-}
-
-img{
-    width: 100%;
-}
-
-figure{
-    margin: auto;
-    text-align: center;
-    max-width: 150px;
-}
-
-span{
-    justify-self: flex-end;
-    
-}
-
-.description{
-    line-height: 1.5rem;
-    margin-top:0;
-    text-align: justify;
-}
-
-.course-heading{
-    margin-bottom: 3rem;
-}
-
-#allergens{
-    display: grid;
-    grid-auto-flow: column;
-    max-width: 900px;
-    background-color: #faf3e7;
-    margin: auto;
-    gap: 1rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid black;
-}
-
 /* Mobile Responsive css */
 
 @media screen and (min-width: 318px) and (max-width: 374px) {
@@ -137,11 +37,10 @@ span{
             }
 
             /* End responsive css */
-
    </style>
 </head>
 
-<body>
+<body class="body-menu">
    <header>
     <div class="navbar" style="margin: auto; align-items: center; margin-top: auto;">
         <nav>
@@ -162,7 +61,7 @@ span{
               <div class="menu-grid">
                   <section>
                       <figure>
-                          <img src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
+                          <img class="img-menu" src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
                       </figure>
                       
                       <div class="dish-grid">
@@ -181,7 +80,7 @@ span{
                   
                   <section>
                       <figure>
-                          <img src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
+                          <img class="img-menu" src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
                       </figure>
 
                       <div class="dish-grid">
@@ -205,7 +104,7 @@ span{
               <div class="menu-grid">
                   <section>
                       <figure>
-                          <img src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
+                          <img class="img-menu" src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
                       </figure>
                       
                       <div class="dish-grid">
@@ -224,7 +123,7 @@ span{
                   
                   <section>
                       <figure>
-                          <img src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
+                          <img class="img-menu" src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
                       </figure>
 
                       <div class="dish-grid">
@@ -248,7 +147,7 @@ span{
               <div class="menu-grid">
                   <section>
                       <figure>
-                          <img src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
+                          <img class="img-menu" src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
                       </figure>
                       
                       <div class="dish-grid">
@@ -267,7 +166,7 @@ span{
                   
                   <section>
                       <figure>
-                          <img src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
+                          <img class="img-menu" src="../img/lunch1.png" alt="Pancakes with scrambled eggs and bacon" title="Breakfast pancakes"/>
                       </figure>
 
                       <div class="dish-grid">

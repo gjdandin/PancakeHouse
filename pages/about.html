@@ -7,33 +7,9 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
 
    <style>
-
-      /*  NAVIGATION CSS START */ 
-      .navbar {
-      overflow: hidden;
-      background-color: #333;
-      display: flex;
-      margin-top: 0;
-      width: 100%;
-      justify-content: center;
-    }
-
-    .navbar a {
-      display: inline-block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .navbar a:hover {
-      background: #fef;
-      color: tomato;
-    }
-
     /*Mobile responsive css*/
     @media screen and (min-width: 318px) and (max-width: 374px) {
                 .navbar a {
@@ -64,75 +40,13 @@
 
             /* End responsive css */
      
-   /* Set the type of box to border-box for both cards used for the about page*/
-  .card {
-    width: 100%;
-    box-sizing: border-box;
-  }
-    
-   /* Scaling the images to look nicer */
-    .card > div.left > img,
-    .card > div.right > img{
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 2%;
-      padding-top:2%;
-      display: block;
-    }
-
-    /*Making the text-boxes look better */
-
-    .card > div.right {
-      text-align: left;
-      vertical-align: top;
-      padding-top:0.5%;
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .card > div.left > article > p {
-      text-align: left;
-      padding-top:0.5%;
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-      
-
-    }
-
-
-
-
-    /* Making the headings appear in the center */
-    .card > div.right > article > h1,
-    .card > div.left > article > h2 {
-      text-align: center;
-              font-family: 'Playfair Display', serif;
-    }
-
-    /* Setting the size of both boxes in the card */
-   .card > div.left,
-   .card > div.right {
-   height: 100%;
-   width: 45%;
-
-}
-   /*Setting the card to align elements in the middle*/
-   .card > div {
-   vertical-align: middle;
-   display: inline-block;
-   }
- 
-
   
    </style>
 </head>
 
 
 <body>
-    <div class="navbar" style="align-items: center; margin-top: auto;">
+    <div class="navbar">
         <nav>
           <a href="../pages/index.html">Home</a> 
           <a href="../pages/menu.html">Menu</a> 
@@ -148,14 +62,14 @@
   <!-- creating a card to display the about us page, (just like we did in lab 4)-->
   <div class = "left">
     
-    <img src="../img/strawberry-desert-pancake.jpeg" alt="One of our desert pancakes, with a strawberry, bluieberries, cream and syrup">
+    <img class="img-about" src="../img/strawberry-desert-pancake.jpeg" alt="One of our desert pancakes, with a strawberry, bluieberries, cream and syrup">
     
 
 <!-- Image from https://www.pexels.com/photo/cooked-food-on-white-plate-beside-stainless-steel-fork-and-knife-on-brown-wooden-table-3838632/ -->
 
   </div>
   <div class = "right">
-    <article>
+    <article >
 
      <h1>Welcome to Pancake House, where we aim to bring pancakes to the next level</h1>
 
@@ -191,7 +105,7 @@
 
   <div class = "right">
     
-    <img src="../img/crew-photo.jpeg" alt="A team meeting by the founders of Pancake House">
+    <img class="img-about" src="../img/crew-photo.jpeg" alt="A team meeting by the founders of Pancake House">
     <!-- Image from https://www.pexels.com/photo/women-standing-beside-corkboard-3184296/-->
 
 
