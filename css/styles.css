@@ -29,15 +29,14 @@
 
 /*hiya */
 
-figure{
+.figure-menu{
     margin: auto;
     text-align: center;
     max-width: 150px;
 }
 
-span{
-    justify-self: flex-end;
-    
+.dish-grid > span{
+    justify-self: flex-end; 
 }
   .main-div-1{
     display: flex; 
@@ -59,24 +58,23 @@ span{
 }
 
 .wrapper{
-    display: grid;
-    gap: 6rem;
-    max-width: 90vw;
-    padding: 1rem 1rem;
-    margin: auto;
-    margin-bottom: 10rem;
+  display: grid;
+  gap: 6rem;
+  width: 90vw;
+  margin: auto;
 }
 
 .menu-grid{
-    display: grid;
-    gap:4rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: grid;
+  gap:8rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin-top: 5rem;
 }
 
 .dish-grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
 }
 .description{
     line-height: 1.5rem;
@@ -85,26 +83,32 @@ span{
 }
 
 .course-heading{
-    margin-bottom: 3rem;
+  text-decoration: underline;
 }
 
 #allergens{
-    display: grid;
-    grid-auto-flow: column;
-    max-width: 900px;
-    background-color: #faf3e7;
-    margin: auto;
-    gap: 1rem;
     padding: 1rem;
-    margin-bottom: 1rem;
+    background-color: #faf3e7;
     border: 1px solid black;
+    margin: 5rem 0 1rem 0;
+}
+
+#allergens > ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  place-items: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
  
 /*  NAVIGATION START */ 
   .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed;
+  /*position: fixed;*/
   display: flex;
   margin-top: 0;
   width: 100%;
