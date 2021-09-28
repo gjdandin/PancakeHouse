@@ -263,9 +263,9 @@ input.send-message:hover {
             color: #fef;
         }
         button:hover {
-            background-color:#fef;
+            background-color: #ffc5fe;
             font-size: larger;
-            color: tomato;
+            color: #FF0000;
             
         }
   /* Menu-button end */
