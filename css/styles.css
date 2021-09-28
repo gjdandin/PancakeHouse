@@ -387,7 +387,7 @@ article{
 /* BLUR start */
 .blur {
   background: rgba(255, 255, 255, 0.2); 
-  backdrop-filter: blur(3px); 
+  backdrop-filter: blur(2px); 
   height: 80vh;
 	width: 50%;
   justify-content: center;
