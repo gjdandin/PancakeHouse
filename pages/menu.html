@@ -14,25 +14,29 @@
     /* Mobile Responsive css */
 
     @media screen and (min-width: 318px) and (max-width: 374px) {
-        .navbar a {
+        .navbar-menu a {
         font-size: 14px;
         }
 
-        .navbar {
+        .navbar-menu {
         width: 100%;
         display: flex;
         justify-content: center;
         }
+
+        .body-menu {
+            line-height: 1.4;
+        }
     }
 
     @media screen and (min-width: 375px) and (max-width: 1024px) {
-        .navbar {
+        .navbar-menu {
             width: 100%;
             display: flex;
             justify-content: center;
         }
 
-        .navbar a {
+        .navbar-menu a {
             font-size: 16px;
         }
     }
@@ -42,7 +46,7 @@
 </head>
 
 <body class="body-menu">
-    <div class="navbar">
+    <div class="navbar-menu">
         <nav>
           <a href="../pages/index.html">Home</a> 
           <a href="../pages/menu.html">Menu</a> 

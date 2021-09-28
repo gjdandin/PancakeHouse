@@ -4,13 +4,33 @@
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+    margin-left:0px;
+    margin-right:0px;
   }
   .body-menu{
-    margin:0;
+    margin-top:8px;
+    margin-left:0px;
+    margin-right:0px;
     padding: 0;
     box-sizing: border-box;
     background-color: #FEFBF3;
     font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+  }
+
+  .body-about {
+    margin-top:8px;
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  .body-contact {
+    background-color: #FEFBF3;
+    font-family: 'Playfair Display', serif;
+    margin-top:8px;
+    margin-left:0px;
+    margin-right:0px;
+    line-height: 1.2;
   }
 
   h1{
@@ -122,6 +142,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Playfair Display', serif;
 }
 
 .navbar a:hover {
@@ -129,7 +150,60 @@
   color: tomato;
 }
 
+/* Had to duplicate navbar for contact due to bootstrap incompatibility - to ensure page consistency */
+.navbar-contact {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+  justify-content: center;
+  height: 47px;
+}
+
+.navbar-contact a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  text-size-adjust: 0%;
+}
+
+.navbar-contact a:hover {
+  background: #fef;
+  color: tomato;
+}
+
+/* Had to duplicate navbar for menu due to bootstrap incompatibility - to ensure page consistency */
+.navbar-menu {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+  justify-content: center;
+  height: 47px;
+}
+
+.navbar-menu a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  text-size-adjust: 0%;
+}
+
+.navbar-menu a:hover {
+  background: #fef;
+  color: tomato;
+}
+
 /*  NAVIGATION END */ 
+
 /* Main CSS */
 input.send-message {
     margin-top:1.5em;
@@ -145,11 +219,6 @@ input.send-message {
 }
 input.send-message:hover {
     background-color: transparent;
-}
-.body-contact {
-    background-color: #FEFBF3;
-    font-family: 'Playfair Display', serif;
-    margin:8px;
 }
 .myForm {
     margin: 0 3em 0 0;
@@ -167,6 +236,7 @@ input.send-message:hover {
 }
 .info-point {
     padding:10px 0px 10px 0px;
+    line-height: 1.5;
 }
 .infos {
     display:flex; 
