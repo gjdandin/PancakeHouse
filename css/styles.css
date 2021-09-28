@@ -4,42 +4,23 @@
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-    margin-left:0px;
-    margin-right:0px;
   }
   .body-menu{
-    margin-top:8px;
-    margin-left:0px;
-    margin-right:0px;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
     background-color: #FEFBF3;
     font-family: 'Playfair Display', serif;
   }
 
-  .body-about {
-    margin-top:8px;
-    margin-left:0px;
-    margin-right:0px;
-  }
-
-  .body-contact {
-    background-color: #FEFBF3;
-    font-family: 'Playfair Display', serif;
-    margin-top:8px;
-    margin-left:0px;
-    margin-right:0px;
-    line-height: unset;
-  }
-
   h1{
-    color:#333; 
-    text-shadow:2px 2px 3px black; 
+    color:tomato; 
+    text-shadow:2px 2px 2px black; 
     font-family: 'Playfair Display', serif;
   }
   h2{
-    color:#333; 
-    text-shadow:2px 2px 3px black; 
+    color:tomato; 
+    text-shadow:2px 2px 2px black; 
     font-family: 'Playfair Display', serif;
   }
   .img-menu{
@@ -123,12 +104,11 @@ span{
   .navbar {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
   display: flex;
   margin-top: 0;
   width: 100%;
   justify-content: center;
-  height: 47px;
-  align-content: center;
 }
 
 .navbar a {
@@ -141,32 +121,6 @@ span{
 }
 
 .navbar a:hover {
-  background: #fef;
-  color: tomato;
-}
-
-/* Had to duplicate navbar for contact due to bootstrap incompatibility - to ensure page consistency */
-.navbar-contact {
-  overflow: hidden;
-  background-color: #333;
-  display: flex;
-  margin-top: 0;
-  width: 100%;
-  justify-content: center;
-  height: 47px;
-}
-
-.navbar-contact a {
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  text-size-adjust: 0%;
-}
-
-.navbar-contact a:hover {
   background: #fef;
   color: tomato;
 }
@@ -187,6 +141,11 @@ input.send-message {
 }
 input.send-message:hover {
     background-color: transparent;
+}
+.body-contact {
+    background-color: #FEFBF3;
+    font-family: 'Playfair Display', serif;
+    margin:8px;
 }
 .myForm {
     margin: 0 3em 0 0;
