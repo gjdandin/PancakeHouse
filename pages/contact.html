@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="../css/styles.css">
         
         <style>
-            /* Responsive css */
+            /* Mobile Responsive css */
             @media screen and (max-width: 767px) {
                 input.send-message {
                     font-size: 15px;
@@ -19,6 +19,7 @@
                 ul.infos {
                     padding-top: 1.5em;
                     padding-left: 1em;
+                    line-height: 1.50;
                 }
                 form.myForm {
                     width:80%
@@ -35,32 +36,46 @@
                 .form-container {
                     flex-wrap: nowrap;
                 }
+                ul.infos {
+                    padding-top: 1.5em;
+                    padding-left: 1em;
+                    line-height: 1.50;
+                }
             }
 
             @media screen and (min-width: 318px) and (max-width: 374px) {
-                .navbar a {
-                font-size: 14px;
-                padding: 3px 12px;
+                .navbar-contact a {
+                font-size: 13px;
                 }
 
-                .navbar {
+                .navbar-contact {
                 width: 100%;
                 display: flex;
                 justify-content: center;
-                
+                height:45px;
+                margin-bottom:20px;
+                }
+
+                p {
+                    line-height: 1.50;
                 }
             }
 
             @media screen and (min-width: 375px) and (max-width: 1024px) {
-                .navbar {
+                .navbar-contact {
                     width: 100%;
                     display: flex;
                     justify-content: center;
+                    height:45px;
+                    margin-bottom:20px;
                 }
 
-                .navbar a {
-                    font-size: 16px;
-                    padding: 3px 12px;
+                .navbar-contact a {
+                    font-size: 15px;
+                }
+
+                p {
+                    line-height: 1.50;
                 }
             }
 
@@ -69,7 +84,7 @@
     </head>
 
     <body class="body-contact">
-        <div class="navbar">
+        <div class="navbar-contact">
             <nav>
               <a href="../pages/index.html">Home</a> 
               <a href="../pages/menu.html">Menu</a> 

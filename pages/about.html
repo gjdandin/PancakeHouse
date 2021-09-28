@@ -8,6 +8,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
 
    <style>
 
@@ -37,99 +38,38 @@
 
     /*Mobile responsive css*/
     @media screen and (min-width: 318px) and (max-width: 374px) {
-                .navbar a {
-                font-size: 14px;
-                padding: 3px 12px;
-                }
+      .navbar a {
+      font-size: 14px;
+      }
 
-                .navbar {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                
-                }
-            }
-
-            @media screen and (min-width: 375px) and (max-width: 1024px) {
-                .navbar {
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                }
-
-                .navbar a {
-                    font-size: 16px;
-                    padding: 3px 12px;
-                }
-            }
-
-            /* End responsive css */
-     
-   /* Set the type of box to border-box for both cards used for the about page*/
-  .card {
-    width: 100%;
-    box-sizing: border-box;
-  }
-    
-   /* Scaling the images to look nicer */
-    .card > div.left > img,
-    .card > div.right > img{
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-      padding-bottom: 2%;
-      padding-top: 5%;
-      display: block;
-    }
-
-    /*Making the text-boxes look better */
-
-    .card > div.right {
-      text-align: left;
-      vertical-align: top;
-      padding-top:0.5%;
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .card > div.left > article > p {
-      text-align: left;
-      padding: top 5%;
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
+      .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: center;
       
-
+      }
     }
 
-    /* Making the headings appear in the center */
-    .card > div.right > article > h1,
-    .card > div.left > article > h2 {
-      text-align: center;
-              font-family: 'Playfair Display', serif;
+    @media screen and (min-width: 375px) and (max-width: 1024px) {
+      .navbar {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+      }
+
+      .navbar a {
+          font-size: 16px;
+      }
     }
 
-    /* Setting the size of both boxes in the card */
-   .card > div.left,
-   .card > div.right {
-   height: 100%;
-   width: 45%;
-
-}
-   /*Setting the card to align elements in the middle*/
-   .card > div {
-   vertical-align: middle;
-   display: inline-block;
-   }
- 
-
-  
+    /* End responsive css */
+     
    </style>
 </head>
 
-<body>
-    <div class="navbar" style="align-items: center; margin-top: auto;">
+
+<body class="body-about">
+    <div class="navbar">
         <nav>
           <a href="../pages/index.html">Home</a> 
           <a href="../pages/menu.html">Menu</a> 
@@ -145,13 +85,12 @@
   </div>
   <div class = "right">
     <article>
-     <h1>Welcome to Pancake House</h1>
-     <p>Our restaurant was founded in 2012, with one core belief: the pancake is the ultimate dish. </p> 
-     <p>Of couse, we have a lot of condiments to showcase our pancakes. 100% Norwegian bacon, ice cream freshly made at our house, delishous syrup from Japan, Canada and Germany and juicy, sweet berries, to mention some. 
-      We work to create dishes with amazing taste, feel and presentation.   </p>
-     <p>The dream of creating a resturant dedicated to pancakes started in 2001, and by 2011 our plans were set in motion. United by our love for great food, good presentation, 
-      and most importantly pancakes, we created Pancake House. Come visit us to see what pancakes are truly capable of.</p>
-     <p>We hope to see you at Pilestredet 35.</p>
+     <h1>Welcome to Pancake House, where we aim to bring pancakes to the next level</h1>
+
+   <p>Our restaurant was founded in 2012, with one core belief: the pancake is the ultimate dish. </p> 
+   <p>Of course, we have a lot of condiments to showcase our pancakes. 100% Norwegian bacon, fresh ice cream made at our house, delicious syrup from Japan, Canada and Germany and juicy, sweet berries, to mention some. We work to create dishes with amazing taste, feel and presentation.</p>
+   <p>The dream of creating a restaurant dedicated to pancakes started in 2001. By 2011 our plans were set in motion. United by our love for great food, good presentation, and of course pancakes, we created Pancake House. Come visit us to see what pancakes are capable of.</p>
+   <p>We hope to see you at Pilestredet 35.</p>
      </article>
     
   </div>
@@ -159,21 +98,24 @@
 
 <div class = "card">
       <div class = "left">    
-          <img src="../img/baby-chefs.jpg" alt="A team meeting by the founders of Pancake House">
+          <img src="../img/crew-photo.jpeg" alt="A team meeting by the founders of Pancake House">
       </div>
 
       <div class = "right">
           <article>
           <h2>Meet the crew</h2>
-          <p>In 2001, Sirin got second place in MasterChef australia with her 3 course pancake dish. She felt that she had failed the pancake, and wanted redemtion. 
-            After a plan 10 years in the making, she cofounded Pancake House together with the people shown in the picture. Left to right, the team consists of:
-          <p> Ahmet (Kitchen manager). Ahmet recived his education at "Norsk Resturantskole" in 2011, and his passion lies in presentation of food. He claims presentation is half the experience of a good meal. </p>
-          <p> Gilhan (Executive Chef). When not uploading his coding projects to github, Gilhan can be found experimenting with new and creative ways to showcase the pancake. </p>
-          <p> Sirin (General Manager). Sirin is the manager at Pancake house, and makes the wheels go around. "Every kitchen needs a Sirin" - Bhiravina </p>
-          <p> Johan (Head of Dishwashing). "I've always hated dirty dishes, which is why this job is perfect for me!"</p>
-          <p> Bhiravina (Sous Chef). "The most important part of a successfull dish starts before any ingredients are mixed." </p>
+          <p>In 2001, Sirin got second place in MasterChef Australia with her 3-course pancake dish. Since then, she has dreamed of creating a restaurant. After 10 years, she co-founded Pancake House with a group of passionate chefs. Left to right, the team consists of:
+
+            <p> Ahmet (Kitchen manager). Ahmet’s passion lies in presentation of food. He claims presentation is half the experience of a good meal. </p>
+            <p> Gilhan (Executive Chef). Gilhan loves experimenting with new and creative ways to showcase the pancake. </p>
+            <p> Sirin (General Manager). Sirin is the manager at Pancake house and makes everything go around. "Every kitchen needs a Sirin" - Bhiravina </p>
+            <p> Johan (Head of Dishwashing). "I've always hated dirty dishes, which is why this job is perfect for me!"</p>
+            <p> Bhiravina (Sous Chef). "The most important part of a successful dish starts before any ingredients are mixed." </p>
           </article>  
       </div> 
+
+ <!-- https://hemingwayapp.com/ was used for readability-->
+
 
 </div>
 
