@@ -386,8 +386,9 @@ article{
 /* BLUR start */
 .blur {
   background: rgba(255, 255, 255, 0.2); 
-  backdrop-filter: blur(8px); 
+  backdrop-filter: blur(5px); 
   height: 50vh;
 	width: 50%;
+  justify-content: center;
 }
 /* BLUR end */
