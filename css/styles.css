@@ -388,10 +388,11 @@ article{
 .blur {
   background: rgba(255, 255, 255, 0.2); 
   backdrop-filter: blur(3px); 
-  height: 70vh;
+  height: 50%;
 	width: 50%;
   justify-content: center;
-  bottom: 0%;
+  bottom: auto;
   margin-bottom: 0;
+  align-items: center;
 }
 /* BLUR end */
