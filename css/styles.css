@@ -193,9 +193,9 @@ input.send-message:hover {
             color: #fef;
         }
         button:hover {
-            background-color: fuchsia;
+            background-color: #FDB9FC;
             font-size: larger;
-            color: midnightblue;
+            color: tomato;
             
         }
   /* Menu-button end */
