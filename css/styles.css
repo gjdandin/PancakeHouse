@@ -14,13 +14,13 @@
   }
 
   h1{
-    color:#201344; 
-    text-shadow:1px 1px 1px midnightblue; 
+    color: midnightblue; 
+    text-shadow:1px 1px 1px black; 
     font-family: 'Playfair Display', serif;
   }
   h2{
-    color:#201344; 
-    text-shadow:1px 1px 2px midnightblue; 
+    color:midnightblue; 
+    text-shadow:1px 1px 2px black; 
     font-family: 'Playfair Display', serif;
   }
   .img-menu{
