@@ -176,7 +176,7 @@
   margin-top: 0;
   width: 100%;
   justify-content: center;
-  height: 47px;
+  height: 48px;
 }
 
 .navbar-menu a {
@@ -367,7 +367,6 @@ article{
    display: inline-block;
    }
 
-
 }
 /* ABOUT US END */
 
@@ -384,6 +383,9 @@ article{
 }
 /* BLUR end */
 
+/* REPORT */
 .report{
 background-color: mix(#fff, #e91e63, 82%);
 }
+
+/* REPORT END */
