@@ -389,13 +389,4 @@ article{
   max-height: 70%;
   margin-top: auto;
 }
-
-.container {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-
 /* BLUR end */
