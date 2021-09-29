@@ -117,29 +117,28 @@
 }
  
 /*  NAVIGATION START */ 
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    display: flex;
-    margin-top: 0;
-    width: 100%;
-    justify-content: center;
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .navbar a {
-  display: inline-block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: 'Playfair Display', serif;
+display: inline-block;
+color: #f2f2f2;
+text-align: center;
+padding: 15px 20px;
+text-decoration: none;
+font-size: 17px;
+font-family: 'Playfair Display', serif;
 }
 
 .navbar a:hover {
-  background: #fef;
-  color: tomato;
+background: #fef;
+color: tomato;
 }
 
 /* Had to duplicate navbar for contact due to bootstrap incompatibility - to ensure page consistency */
