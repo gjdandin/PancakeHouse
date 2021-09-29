@@ -47,8 +47,6 @@
     width: 100%;
 }
 
-/*hiya */
-
 .figure-menu{
     margin: auto;
     text-align: center;
@@ -344,6 +342,16 @@ article{
       font-family: 'Playfair Display', serif;
     }
 
+
+/*Making the text-boxes look better */
+
+    .card > div.right > article {
+      text-align: left;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
 /* The following only works if the page size is bigger than 800 px, if not the images are on top of the text */
 @media only screen and (min-width: 800px) {
   /* Set the type of box to border-box for both cards used for the about page*/
@@ -351,30 +359,6 @@ article{
     width: 100%;
     box-sizing: border-box;
   }
-    
-
-   
-
-    /*Making the text-boxes look better */
-
-    .card > div.right {
-      text-align: left;
-      vertical-align: top;
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .card > div.left > article > p {
-      text-align: left;
-      vertical-align: top;
-      padding: top 70%;
-      width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-      
-
-    }
 
     /* Setting the size of both boxes in the card */
    .card > div.left,
@@ -388,6 +372,7 @@ article{
    vertical-align: middle;
    display: inline-block;
    }
+
 
 }
 /* ABOUT US END */
