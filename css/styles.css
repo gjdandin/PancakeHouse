@@ -203,7 +203,7 @@
 
 /*  NAVIGATION END */ 
 
-/* Main CSS */
+/* Contact CSS */
 input.send-message {
     margin-top:1.5em;
     border-radius: 5px;
@@ -247,7 +247,7 @@ input.send-message:hover {
     margin: 0 auto;
     width:max-content;
 }
-/* End main css */
+/* End contact css */
 
   /* Menu-button start */   
       button {
