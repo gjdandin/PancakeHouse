@@ -383,3 +383,7 @@ article{
   margin-top: auto;
 }
 /* BLUR end */
+
+.report{
+background-color: mix(#fff, #e91e63, 82%);
+}
