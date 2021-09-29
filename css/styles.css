@@ -324,14 +324,9 @@ article{
 
 /* ABOUT US START */
 
-  /* Set the type of box to border-box for both cards used for the about page*/
-  .card {
-    width: 100%;
-    box-sizing: border-box;
-  }
-    
    /* Scaling the images to look nicer */
-    .card > div.left > img,
+
+.card > div.left > img,
     .card > div.right > img{
       width: 70%;
       margin-left: auto;
@@ -339,6 +334,26 @@ article{
       padding-top: 5%;
       display: block;
     }
+
+
+/* Aligning the headings */
+
+.card > div.right > article > h1,
+.card > div.right > article > h2 {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+
+/* The following only works if the page size is bigger than 800 px, if not the images are on top of the text */
+@media only screen and (min-width: 800px) {
+  /* Set the type of box to border-box for both cards used for the about page*/
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+    
+
+   
 
     /*Making the text-boxes look better */
 
@@ -361,26 +376,20 @@ article{
 
     }
 
-    /* Making the headings appear in the center */
-    .card > div.right > article > h1,
-    .card > div.left > article > h2 {
-      text-align: center;
-      font-family: 'Playfair Display', serif;
-    }
-
     /* Setting the size of both boxes in the card */
    .card > div.left,
    .card > div.right {
    height: 100%;
    width: 45%;
 
-}
+ }
    /*Setting the card to align elements in the middle*/
    .card > div {
    vertical-align: middle;
    display: inline-block;
    }
- 
+
+}
 /* ABOUT US END */
 
 /* BLUR start */
