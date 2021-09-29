@@ -35,16 +35,8 @@
     line-height: 1.2;
   }
 
-  h1{
-    color: midnightblue; 
-    text-shadow:1px 1px 1px black; 
-    font-family: 'Playfair Display', serif;
-  }
-  h2{
-    color:midnightblue; 
-    text-shadow:1px 1px 2px black; 
-    font-family: 'Playfair Display', serif;
-  }
+
+
   .img-menu{
     width: 100%;
 }
