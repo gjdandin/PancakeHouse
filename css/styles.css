@@ -35,9 +35,7 @@
     line-height: 1.2;
   }
 
-
-
-  .img-menu{
+.img-menu{
     width: 100%;
 }
 
@@ -61,7 +59,8 @@
     margin-top: 10px; 
     font-family: 'Playfair Display', serif;
   }
-  .center{
+
+.center{
     text-align: center;
 }
 
@@ -88,6 +87,7 @@
   grid-template-columns: repeat(2,1fr);
   align-items: center;
 }
+
 .description{
     line-height: 1.5rem;
     margin-top:0;
