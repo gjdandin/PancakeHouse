@@ -33,9 +33,9 @@ Github pages links:
 * Report: https://gjdandin.github.io/PancakeHouse/pages/report.html 
 
 ### Useful links:
-* The beginner’s guide to SEO (Moz): https://www.example.com
-* Web accessibility tutorials (W3C): https://www.example.com
-* Web Accessibility evaluation tools list (W3C): https://www.example.com
+* The beginner’s guide to SEO (Moz): https://moz.com/beginners-guide-to-seo 
+* Web accessibility tutorials (W3C): https://www.w3.org/WAI/tutorials/page-structure/
+* Web Accessibility evaluation tools list (W3C): https://www.w3.org/WAI/ER/tools/?q=wcag-21-w3c-web-content-accessibility-guidelines-21
 
 ### Other sources: 
 * Source
@@ -43,10 +43,10 @@ Github pages links:
 * Source
 
 ## 3. Deliverables/check list
-* Zip file with your project (including all the pages, images, etc.). (( do they need to upload this if they submit a GitHub pages link? ))
+* Zip file with your project (including all the pages, images, etc.). 
 * readme file (.txt or .md) with any relevant comment the examiner should know when grading the task. 
 * Link to the live version of your page (GitHub pages). You can add the link in the readme file
-* Valid HTML and CSS code (all pages) – Feel free to use the HTML validator and the CSS validator
+* Valid HTML and CSS code (all pages) – Feel free to use the HTML validator and the CSS validator: https://validator.w3.org/
 * (Only if you picked option b) 
  0. Version 1: HTML page before accessibility check 
  00. Version 2: HTML page after accessibility check 
