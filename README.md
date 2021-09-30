@@ -58,9 +58,9 @@ Github pages links:
 *
 
 ### thank you! 
-*
-*
-*
+==
+=
+
 
 © 2021 Team G33 - Data1200 
 
