@@ -42,12 +42,12 @@ Github pages links:
 * Link to the live version of your page (GitHub pages). You can add the link in the readme file
 * Valid HTML and CSS code (all pages) – Feel free to use the HTML validator and the CSS validator
 * (Only if you picked option b) 
- ** Version 1: HTML page before accessibility check 
- ** Version 2: HTML page after accessibility check 
- ** Report page: the report with your preparations and reflections about the accessibility part:
+ **Version 1: HTML page before accessibility check 
+ **Version 2: HTML page after accessibility check 
+ **Report page: the report with your preparations and reflections about the accessibility part:
 
 
-# Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
+## Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
 
 . 
 . 
