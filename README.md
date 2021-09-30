@@ -13,13 +13,13 @@
 ## Sections: 
 
 ## 1. Overview
-### For this assignment, we have chosen the option b: Website for a restaurant / cafe. The name of the cafe is Pancake House, and makes the best pancakes in the world! 
+For this assignment, we have chosen the option b: Website for a restaurant / cafe. The name of the cafe is Pancake House, and makes the best pancakes in the world! 
 
-### Our webpage is consist of four pages: Home, Menu, About and Contact. We have also included the report.html in the navigation bar in order to make it more accessable and to meet the oblig-criterias. 
+Our webpage is consist of four pages: Home, Menu, About and Contact. We have also included the report.html in the navigation bar in order to make it more accessable and to meet the oblig-criterias. 
 
 
 ## 2. Key elements
-### We wanted to create a simple but powerful and beautiful website with minimalistic design, and we have also challenged ourselves to implement some advanced css-styles and effects as seen on the index.html where  backdrop-filter: blur code is used to make the text more readable. 
+We wanted to create a simple but powerful and beautiful website with minimalistic design, and we have also challenged ourselves to implement some advanced css-styles and effects as seen on the index.html where  backdrop-filter: blur code is used to make the text more readable. 
 
 
 ## 3. Useful links and sources
@@ -46,7 +46,7 @@ Github pages links:
 * Link to the live version of your page (GitHub pages). You can add the link in the readme file
 * Valid HTML and CSS code (all pages) – Feel free to use the HTML validator and the CSS validator
 * (Only if you picked option b) 
- **Version 1: HTML page before accessibility check 
+ 0. * Version 1: HTML page before accessibility check 
  **Version 2: HTML page after accessibility check 
  **Report page: the report with your preparations and reflections about the accessibility part:
 
