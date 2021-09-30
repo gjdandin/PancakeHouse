@@ -10,8 +10,9 @@
 * Bhiravina Mahesaratnam | s334895
 * Johan Tryti | s362059
 
+## Sections: 
 1. Overview
-2. Sections and key elements
+2. Key elements
 3. Useful links and sources
 
 
