@@ -22,7 +22,7 @@ Our webpage is consist of four pages: Home, Menu, About and Contact. We have als
 We wanted to create a simple but powerful and beautiful website with minimalistic design, and we have also challenged ourselves to implement some advanced css-styles and effects as seen on the index.html where  backdrop-filter: blur code is used to make the text more readable. 
 
 
-## 3. Useful links and sources
+## 3. Links to the webpage: PancakeHouse
 Github pages links: 
 * Home: https://gjdandin.github.io/PancakeHouse/pages/index.html 
 * Menu: https://gjdandin.github.io/PancakeHouse/pages/menu.html 
@@ -30,12 +30,12 @@ Github pages links:
 * Contact: https://gjdandin.github.io/PancakeHouse/pages/contact.html 
 * Report: https://gjdandin.github.io/PancakeHouse/pages/report.html 
 
-### Links:
+### Useful links:
 * The beginner’s guide to SEO (Moz): https://www.example.com
 * Web accessibility tutorials (W3C): https://www.example.com
 * Web Accessibility evaluation tools list (W3C): https://www.example.com
 
-### Sources: 
+### Other sources: 
 * Source
 * Soruce
 * Source
