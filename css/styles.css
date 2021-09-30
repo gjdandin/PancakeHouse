@@ -401,11 +401,11 @@ article{
 .blur {
   background: rgba(185, 185, 185, 0.233); 
   backdrop-filter: blur(3px); 
-  height: 90%;
+  height: 100%;
 	width: 60%;
   justify-content: center;
   max-width: 60%;
-  max-height: 90%;
+  max-height: 100%;
   margin-top: auto;
 }
 /* BLUR end */
