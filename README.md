@@ -13,10 +13,14 @@
 ## Sections: 
 
 ## 1. Overview
-### Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+### For this assignment, we have chosen the option b: Website for a restaurant / cafe. The name of the cafe is Pancake House, and makes the best pancakes in the world! 
+
+### Our webpage is consist of four pages: Home, Menu, About and Contact. We have also included the report.html in the navigation bar in order to make it more accessable and to meet the oblig-criterias. 
+
 
 ## 2. Key elements
-### Our webpage is consist of four pages: Home, Menu, About and Contact. We have also included the report.html in the navigation bar in order to make it more accessable and to meet the oblig-criterias. 
+### We wanted to create a simple but powerful and beautiful website with minimalistic design, and we have also challenged ourselves to implement some advanced css-styles and effects as seen on the index.html where  backdrop-filter: blur code is used to make the text more readable. 
+
 
 ## 3. Useful links and sources
 Github pages links: 
