@@ -13,7 +13,7 @@
 ## Sections: 
 
 ## 1. Overview
-For this assignment, we have chosen the option _b_: Website for a restaurant / cafe. The name of the cafe is __Pancake House__, and makes the best pancakes in the world! 
+For this assignment, we have chosen the option __b__: Website for a restaurant / cafe. The name of the cafe is __Pancake House__, and makes the best pancakes in the world! 
 
 Our webpage is consist of four pages: Home, Menu, About and Contact. We have also included the report.html in the navigation bar in order to make it more accessable and to meet the oblig-criterias. 
 
@@ -21,7 +21,7 @@ Our webpage is consist of four pages: Home, Menu, About and Contact. We have als
 ## 2. Key elements
 We wanted to create a simple but powerful and beautiful website with minimalistic design, and we have also challenged ourselves to implement some advanced css-styles and effects as seen on the index.html where  backdrop-filter: blur code is used to make the text more readable. 
 
-We have also worked on and tried to make the site user friendly and accassable. For this purpose, we tried to provide clear, engaging, and easy-to-find content on our site.
+We have also worked on diffreent elements and tried to make the site user friendly and accassable. For this purpose, we tried to provide clear, engaging, and easy-to-find content on our site.
 
 
 ## 3. Links to the webpage: PancakeHouse
