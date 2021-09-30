@@ -47,19 +47,17 @@ Github pages links:
 * Valid HTML and CSS code (all pages) – Feel free to use the HTML validator and the CSS validator
 * (Only if you picked option b) 
  0. Version 1: HTML page before accessibility check 
- 0. Version 2: HTML page after accessibility check 
- 0. Report page: the report with your preparations and reflections about the accessibility part:
+ 00. Version 2: HTML page after accessibility check 
+ 000. Report page: the report with your preparations and reflections about the accessibility part:
 
 
 ## Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
 
 ***
-*
-*
+
 
 ### thank you! 
-==
-=
+
 
 
 © 2021 Team G33 - Data1200 
