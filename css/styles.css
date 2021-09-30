@@ -162,16 +162,16 @@ color: tomato;
   margin-top: 0;
   width: 100%;
   justify-content: center;
-  height: 47px;
+  height: 48px;
 }
 
 .navbar-contact a {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 20px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
   text-size-adjust: 0%;
 }
 
@@ -195,9 +195,9 @@ color: tomato;
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 20px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
   text-size-adjust: 0%;
 }
 
