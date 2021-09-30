@@ -36,11 +36,7 @@ Github pages links:
 * The beginner’s guide to SEO (Moz): https://moz.com/beginners-guide-to-seo 
 * Web accessibility tutorials (W3C): https://www.w3.org/WAI/tutorials/page-structure/
 * How to Meet WCAG: https://www.w3.org/WAI/WCAG21/quickref/
-
-### Other sources: 
-* Source
-* Soruce
-* Source
+* Inproving readability for texts: https://hemingwayapp.com/
 
 ## 3. Deliverables/check list - from the assignment text
 * Zip file with your project (including all the pages, images, etc.). 
