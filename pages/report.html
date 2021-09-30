@@ -138,7 +138,6 @@ body{
 
     <div class="container">
 <p><strong>Overview</strong>
-
 This page uses semantic tags to separate content and increase accessability - such as "main", "section" and "nav" - so that it is optimized for SEO/crawlable and accessable for those with visual impairments or users without mouse access. CSS & HTML comments are also included to increase the readibility of the code.
 The website had to be responsive for all devices, therefore we used @mediascreen CSS thouroughly in all the pages.
 </p>
@@ -147,7 +146,9 @@ The website had to be responsive for all devices, therefore we used @mediascreen
 <p><strong>Index.html (home-page) validation:</strong>
 W3S-validator check results gave 3 errors; the first one was about “Consider avoiding viewport values that prevent users from resizing documents.” This is fixed by removing the user-scalable value which was set to “no”. 
 Second issue was “Element p not allowed as child of element h2 in this context. (Suppressing further errors from this subtree.)”. This one is fixed by having the p element before h2. The last issue was about the “menu” button on index.html: 
-The element button must not appear as a descendant of p element.”. This one is also fixed by changing the places of a (link) and button elements so that button element would not appear as child of a element. In order to make the index page more user friendly, different region identifiers and labels used such as nav label, and region names; main and footer.
+The element button must not appear as a descendant of p element.”. This one is also fixed by changing the places of a-element and button-element, so that button-element would not appear as child of the a-element. 
+<br>
+In order to make the index page more user friendly, different region identifiers and labels used such as nav label, and region names; main and footer.
 </p>
 <hr>
 
