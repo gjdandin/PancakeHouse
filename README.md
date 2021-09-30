@@ -1,8 +1,8 @@
 # PancakeHouse - A webdevelopment project by G33
 
-## Our favorite restaurant: The Pancake House
+## Oblig 1: Simple page
 
-## Team members: 
+## G33 - team members: 
 
 * Sirin Koca | s182211
 * Gilhan Jentrix M. Dandin | s360903
@@ -12,9 +12,9 @@
 
 ## Sections: 
 
-1. # Overview
-2. # Key elements
-3. # Useful links and sources
+1. ## Overview
+2. ## Key elements
+3. ## Useful links and sources
 
 
 ### thank you! 
