@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <title>Welcome to Pancake House!</title>
+   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no"/>
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
+   
+   
+    <style>
+
+      body {
+         background-image: url('../img/Blueberry-pancakes-bg.jpg');
+         background-color: #333;
+         background-repeat: no-repeat;
+         background-attachment: fixed;  
+         background-size: cover;
+       }
+      
+     /*  NAVIGATION START */ 
+       .navbar {
+       overflow: hidden;
+       background-color: #333;
+       position: fixed;
+       display: flex;
+       margin-top: 0;
+       width: 100%;
+       justify-content: center;
+     }
+ 
+     .navbar a {
+       display: inline-block;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 17px;
+     }
+ 
+     .navbar a:hover {
+       background: #fef;
+       color: tomato;
+     }
+ 
+   /*  NAVIGATION END */ 
+ 
+      
+ /*  SOCIAL MEDIA ICONS START  */   
+       .fa {
+         padding: 10px;
+         font-size: 20px;
+         width: 20px;
+         text-align: center;
+         text-decoration: none;
+         margin: 5px 2px;
+         border-radius: 50%;
+         }
+ 
+       .fa:hover {
+         background-color: #333;
+         color: tomato;
+       }
+ 
+       .fa-facebook {
+         background: #3B5998;
+         color: white;
+       }
+ 
+       .fa-instagram {
+         background: tomato;
+         color: white;
+       }
+ 
+       .fa-snapchat-ghost {
+         background: #fffc00;
+         color: white;
+         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+       }
+ /*  SOCIAL MEDIA ICONS END  */
+ 
+   footer {
+     position: fixed;
+     display: flex;
+     height: 50px;
+     bottom:0px;
+     left:0px;
+     right:0px;
+     margin-bottom:0px;
+     justify-content: center;
+   }
+ 
+  @media screen and (min-width: 375px) and (max-width: 1024px) {
+      /* For mobile phones: */
+      .navbar {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      }
+
+      .navbar a {
+      font-size: 17px;
+      padding: 10px 10px;
+      }
+
+      button {
+      font-size: 14px;
+      width:65%;
+        
+      }
+      button:hover {
+      font-size: 14px;
+      width:65%;
+      }
+    }
+
+  @media screen and (min-width: 318px) and (max-width: 374px) {
+    .navbar a {
+    font-size: 14px;
+    padding: 10px 10px;
+    }
+
+    .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+
+    h1 {
+      font-size: 1.2em;
+    }
+    h2 {
+      font-size: 1em;
+    }
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 667px) {
+    h1 {
+      font-size: 1.4em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+    </style> 
+    
+</head>
+
+<body class="body-home">  
+
+  <div class="navbar" style="margin: auto; align-items: center;">
+    <nav>
+      <a href="../pages/index.html">Home</a> 
+      <a href="../pages/menu.html">Menu</a> 
+      <a href="../pages/about.html">About</a> 
+      <a href="../pages/contact.html">Contact</a>
+      <a href="../pages/report.html">Report</a>
+    </nav>
+  </div>      
+
+   <div class="main" style="display: flex; padding: 6em 4em; margin:0; align-items:center">    
+        <div class="blur" style="display: flex; margin:0; align-items: center; flex-direction: column; text-align: center;">
+              <h1 style="color: linen; text-shadow:2px 2px 3px black; font-family: 'Playfair Display', serif; text-align:center;">
+                ✿ Welcome to the Pancake House ✿ <br> Worlds' best pancakes just a click away!</h1>
+              <h2 style="color: linen; margin-top: 0%; text-shadow:2px 2px 3px rgb(0, 0, 0); font-family: 'Playfair Display', serif; text-align: center;">
+               <p> We are open all year round, and looking forward to see you soon!</p>
+                Order your favorite here:</h2>                        
+              
+               <div>            
+                <a href="../pages/menu.html">
+                  <button class="button" style="width:110px; height:40px; font-family: 'Playfair Display', serif;">♥ MENU ♥</button>
+                </a>
+              </div>
+              <div style="display: flex; margin:0; align-items: center; flex-direction: column; text-align: center; font-size: medium; font-family: 'Playfair Display', serif;">
+                <p>Opening hours: 10:00-20:00 everyday.</p>
+              </div>
+
+
+          </div>
+      </div>  
+            
+     <!-- Add social media icons -->
+        <footer>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+        </footer>      
+
+</body>
+</html>
