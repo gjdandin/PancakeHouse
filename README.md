@@ -4,19 +4,15 @@
 
 ## Team members: 
 
-Sirin Koca|s182211
+* Sirin Koca | s182211
+* Gilhan Jentrix M. Dandin | s360903
+* Ahmet Okur | s364568
+* Bhiravina Mahesaratnam | s334895
+* Johan Tryti | s362059
 
-Bhiravina Mahesaratnam|s334895
-
-Gilhan Jentrix M. Dandin|s360903
-
-Johan Tryti|s362059
-
-Ahmet Okur|s364568
-
-1- Overview
-2- Sections and key elements
-3- Useful links and sources
+1. Overview
+2. Sections and key elements
+3. Useful links and sources
 
 
 ### thank you! 
