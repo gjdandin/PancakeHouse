@@ -38,9 +38,7 @@ Github pages links:
 * Web Accessibility evaluation tools list (W3C): https://www.example.com
 
 ### Other sources: 
-* Source
-* Soruce
-* Source
+* Sources for images are included as comments in the HTML-file
 
 ### Deliverables/check list
 * Zip file with your project (including all the pages, images, etc.). (( do they need to upload this if they submit a GitHub pages link? ))

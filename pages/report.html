@@ -137,6 +137,16 @@ body{
 
 
     <div class="container">
+
+<p><strong> Things done to ensure universal accessibility and different user/needs/situations though of</strong>
+
+<p>To ensure accessability, sematics tags (i.e "footer" and "article") were used. In addtion, steps were taken to make the page look good when zooming (SOMEONE WRITE WHAT WAS DONE!). We made sure the navigation bar was easy to navigate with from all pages, and accessible using only keyboard. 
+To make the text easy to read, we tried to use easy words and short and easy top understand sentences. The hemingway app (https://hemingwayapp.com/) was used for the about us page as an additional step to ensure  good readability. </p>
+
+<p> We wanted a clean frontpage, showing only the most important information (address, resturant name, opening hours). The grey blur window was added to make the text readable even with the pancake picture having rather strong colors.  </p>
+<p> Using this code @media screen, we made sure the pages work for mobile and other small devices. Example: @media screen and (min-width: 318px) and (max-width: 374px). For both the about us and contact page, this make elements appear above each other instead of by the side of each other.</p>
+<p> To make the page easy to find using google, we added the description meta tag with a short description for the resturant. We also added the title tag.</p>
+
 <p><strong>Index.html (home-page) validation:</strong>
   W3S-validator check results gave 3 errors; the first one was about “Consider avoiding viewport values that prevent users from resizing documents.” This is fixed by removing the user-scalable value which was set to “no”. 
   Second issue was “Element p not allowed as child of element h2 in this context. (Suppressing further errors from this subtree.)”. This one is fixed by having the p element before h2. The last issue was about the “menu” button on index.html: 
@@ -151,11 +161,8 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 </p>
 <hr>  
 <p><strong>About page validation:</strong>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-</p>
+The accessability checker showed no know problems for the about page.  </p>
+
 <hr>
 <p><strong>Contact page validation:</strong>
   This page uses semantic tags to separate content and increase accessability - such as "main", "section" and "nav" - so that it is optimized for SEO/crawlable and accessable for those with visual impairments or users without mouse access. CSS & HTML comments are also included to increase the readibility of the code.
