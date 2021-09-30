@@ -401,8 +401,8 @@ article{
 .blur {
   background: rgba(185, 185, 185, 0.233); 
   backdrop-filter: blur(3px); 
-  height: 70vh;
-	width: 50%;
+  height: 60vh;
+	width: 60%;
   justify-content: center;
   max-width: 60%;
   max-height: 60%;
