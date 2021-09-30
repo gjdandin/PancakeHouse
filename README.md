@@ -20,11 +20,11 @@
 
 ## 3. Useful links and sources
 Github pages links: 
-https://gjdandin.github.io/PancakeHouse/pages/index.html - Homepage
-https://gjdandin.github.io/PancakeHouse/pages/menu.html - Menu
-https://gjdandin.github.io/PancakeHouse/pages/about.html - About
-https://gjdandin.github.io/PancakeHouse/pages/contact.html - Contact
-https://gjdandin.github.io/PancakeHouse/pages/report.html - Report
+* Home: https://gjdandin.github.io/PancakeHouse/pages/index.html 
+* Menu: https://gjdandin.github.io/PancakeHouse/pages/menu.html 
+* About: https://gjdandin.github.io/PancakeHouse/pages/about.html 
+* Contact: https://gjdandin.github.io/PancakeHouse/pages/contact.html 
+* Report: https://gjdandin.github.io/PancakeHouse/pages/report.html 
 
 ### Links:
 * The beginner’s guide to SEO (Moz): https://www.example.com
