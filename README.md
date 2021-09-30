@@ -1,5 +1,6 @@
-PancakeHouse - A webdevelopment project by G33 
-Our Favorite Pancake Restaurant - The Pancake House
+#PancakeHouse - A webdevelopment project by G33 
+
+#Our Favorite Pancake Restaurant - The Pancake House
 Team members: 
 Sirin Koca|s182211
 
