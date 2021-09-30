@@ -1,4 +1,4 @@
-# PancakeHouse - A webdevelopment project by G33
+# PancakeHouse - A web development project by G33
 
 ## Oblig 1: Simple page
 
@@ -19,7 +19,12 @@
 ### Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 ## 3. Useful links and sources
-### Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Github pages links: 
+https://gjdandin.github.io/PancakeHouse/pages/index.html - Homepage
+https://gjdandin.github.io/PancakeHouse/pages/menu.html - Menu
+https://gjdandin.github.io/PancakeHouse/pages/about.html - About
+https://gjdandin.github.io/PancakeHouse/pages/contact.html - Contact
+https://gjdandin.github.io/PancakeHouse/pages/report.html - Report
 
 ### Sources: 
 * Source
