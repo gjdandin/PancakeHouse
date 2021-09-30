@@ -12,6 +12,7 @@
     margin-left:0px;
     margin-right:0px;
   }
+  
   .body-menu{
     height: 100%;
     width: 100%;
@@ -149,6 +150,7 @@
   width: 100%;
   font-size: 17px;
   justify-content: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .navbar a {
@@ -174,7 +176,7 @@ color: tomato;
   margin-top: 0;
   width: 100%;
   justify-content: center;
-  height: 48px;
+  height: 49px;
 }
 
 .navbar-contact a {
@@ -200,7 +202,7 @@ color: tomato;
   margin-top: 0;
   width: 100%;
   justify-content: center;
-  height: 48px;
+  height: 49px;
 }
 
 .navbar-menu a {
@@ -407,9 +409,9 @@ article{
 }
 /* BLUR end */
 
-/* REPORT */
+/* REPORT start */
 .report{
 background-color: mix(#fff, #e91e63, 82%);
 }
 
-/* REPORT END */
+/* REPORT end */
