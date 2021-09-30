@@ -33,25 +33,25 @@ Github pages links:
 * Report: https://gjdandin.github.io/PancakeHouse/pages/report.html 
 
 ### Useful links:
-* The beginner’s guide to SEO (Moz): https://www.example.com
-* Web accessibility tutorials (W3C): https://www.example.com
-* Web Accessibility evaluation tools list (W3C): https://www.example.com
+* The beginner’s guide to SEO (Moz): https://moz.com/beginners-guide-to-seo 
+* Web accessibility tutorials (W3C): https://www.w3.org/WAI/tutorials/page-structure/
+* How to Meet WCAG: https://www.w3.org/WAI/WCAG21/quickref/
 
 ### Other sources: 
 * Sources for images are included as comments in the HTML-file
 
-### Deliverables/check list
-* Zip file with your project (including all the pages, images, etc.). (( do they need to upload this if they submit a GitHub pages link? ))
+## 3. Deliverables/check list - from the assignment text
+* Zip file with your project (including all the pages, images, etc.). 
 * readme file (.txt or .md) with any relevant comment the examiner should know when grading the task. 
 * Link to the live version of your page (GitHub pages). You can add the link in the readme file
-* Valid HTML and CSS code (all pages) – Feel free to use the HTML validator and the CSS validator
+* Valid HTML and CSS code (all pages) – Feel free to use the HTML validator and the CSS validator.
 * (Only if you picked option b) 
  0. Version 1: HTML page before accessibility check 
  00. Version 2: HTML page after accessibility check 
  000. Report page: the report with your preparations and reflections about the accessibility part:
 
 
-## Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
+## 4. Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
 
 ***
 
