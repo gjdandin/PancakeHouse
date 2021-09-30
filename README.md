@@ -46,9 +46,12 @@ Github pages links:
  - 0 Version 2: HTML page after accessibility check 
  - 0 Report page: the report with your preparations and reflections about the accessibility part:
 
-Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
 
+# Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
 
+. 
+. 
+. 
 
 ### thank you! 
 
