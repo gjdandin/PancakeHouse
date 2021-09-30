@@ -27,9 +27,9 @@ https://gjdandin.github.io/PancakeHouse/pages/contact.html - Contact
 https://gjdandin.github.io/PancakeHouse/pages/report.html - Report
 
 ### Links:
-* The beginner’s guide to SEO (Moz)
-* Web accessibility tutorials (W3C)
-* Web Accessibility evaluation tools list (W3C)
+* The beginner’s guide to SEO (Moz): https://www.example.com
+* Web accessibility tutorials (W3C): https://www.example.com
+* Web Accessibility evaluation tools list (W3C): https://www.example.com
 
 ### Sources: 
 * Source
@@ -44,9 +44,9 @@ https://gjdandin.github.io/PancakeHouse/pages/report.html - Report
 * (Only if you picked option b) 
  - 0	Version 1: HTML page before accessibility check [https://www.example.com]
  - 0 Version 2: HTML page after accessibility check [https://www.example.com]
- - 0 Report page: the report with your preparations and reflections about the accessibility part [https://gjdandin.github.io/PancakeHouse/pages/report.html]
+ - 0 Report page: the report with your preparations and reflections about the accessibility part:
 
-Test without code blocks: https://gjdandin.github.io/PancakeHouse/pages/report.html
+Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
 
 
 
