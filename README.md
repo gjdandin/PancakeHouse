@@ -19,7 +19,12 @@
 ### Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 ## 3. Useful links and sources
-### Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+### Links:
+* •	The beginner’s guide to SEO (Moz)
+* •	Web accessibility tutorials (W3C)
+* •	Web Accessibility evaluation tools list (W3C)
+
 
 ### Sources: 
 * Source
