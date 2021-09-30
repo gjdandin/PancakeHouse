@@ -19,7 +19,7 @@ Our webpage is consist of four pages: Home, Menu, About and Contact. We have als
 
 
 ## 2. Key elements
-We wanted to create a simple but powerful and beautiful website with minimalistic design. We have also challenged ourselves to implement some advanced css-styles and effects as seen on the index.html where  backdrop-filter: blur code is used to make the text more readable. 
+We wanted to create a simple but powerful and beautiful website with minimalistic design. We have challenged ourselves to implement some advanced css-styles and effects as seen on the index.html where the "backdrop-filter: blur" code is used to make the text more readable. 
 
 We have also worked on diffreent elements and tried to make the site user friendly and accassable. For this purpose, we tried to provide clear, engaging, and easy-to-find content on our site.
 
