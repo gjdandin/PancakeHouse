@@ -42,7 +42,7 @@ Github pages links:
 * Soruce
 * Source
 
-### Deliverables/check list
+## 3. Deliverables/check list
 * Zip file with your project (including all the pages, images, etc.). (( do they need to upload this if they submit a GitHub pages link? ))
 * readme file (.txt or .md) with any relevant comment the examiner should know when grading the task. 
 * Link to the live version of your page (GitHub pages). You can add the link in the readme file
@@ -53,7 +53,7 @@ Github pages links:
  000. Report page: the report with your preparations and reflections about the accessibility part:
 
 
-## Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
+## 4. Report page as html:  https://gjdandin.github.io/PancakeHouse/pages/report.html
 
 ***
 
