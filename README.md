@@ -11,9 +11,10 @@
 * Johan Tryti | s362059
 
 ## Sections: 
-1. Overview
-2. Key elements
-3. Useful links and sources
+
+1. # Overview
+2. # Key elements
+3. # Useful links and sources
 
 
 ### thank you! 
