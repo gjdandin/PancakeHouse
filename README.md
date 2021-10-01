@@ -13,7 +13,7 @@
 ## Sections: 
 
 ## 1. Overview
-For this assignment, we have chosen the option __b__: Website for a restaurant / cafe. The name of the cafe is __Pancake House__, and makes the best pancakes in the world! 
+For this assignment, we have chosen the __option b__: Website for a restaurant / cafe. The name of the cafe is __Pancake House__, and makes the best pancakes in the world! 
 
 Our webpage is consist of four pages: Home, Menu, About and Contact. We have also included the report.html in the navigation bar in order to make it more accessable and to meet the oblig-criterias. 
 
