@@ -107,11 +107,11 @@
   margin-top: 5rem;
 }
 
-.dish-grid{
+.dish{
   margin-top:1.5rem;
 }
 
-.dish-grid > p{
+.price{
   font-size: 1.2rem;
 }
 
