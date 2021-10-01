@@ -121,8 +121,15 @@ W3S-validator check results gave 3 errors; the first one was about avoiding view
 </p>
 <hr>
 
-<p style="color: #db0925;"><strong>Menu.html page validation:</strong>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+<p><strong>Menu.html page validation:</strong>
+  The accessibility checker initially gave me 1 error and 2 warnings. 
+  The warning was regarding the <code>user-scalable</code> parameter for the <code>meta</code> tag. 
+  <code>User-scalable</code> was set to “no” meaning users can’t scale or zoom the page content on mobile devices. 
+  I fixed this by removing the parameter. 
+  The other warning stated that the last <code>section</code> on the page (the allergens box) lacked headings. 
+  I fixed this by using an <code>aside</code> tag instead of <code>section</code> 
+  as the content inside is only indirectly related to the surrounding content.  
+  The error I got was due to an unclosed <code>main</code> tag. I fixed this by closing the tag.  
 </p>
 <hr> 
 
